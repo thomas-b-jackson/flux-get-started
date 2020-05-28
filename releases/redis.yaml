@@ -6,7 +6,7 @@ metadata:
   namespace: demo
   annotations:
     fluxcd.io/automated: "true"
-    fluxcd.io/tag.chart-image: semver:~5.0
+    fluxcd.io/tag.chart-image: glob:~6.0
 spec:
   releaseName: redis
   chart:
